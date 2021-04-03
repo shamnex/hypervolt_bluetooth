@@ -9,12 +9,17 @@ environment:
 dependencies:
    flutter:
       sdk: flutter
+   bloc: ^7.0.0
    cupertino_icons: ^1.0.2
+   equatable: ^2.0.0
+   flutter_bloc: ^7.0.0
    flutter_blue: ^0.8.0
 
 dev_dependencies:
    flutter_test:
       sdk: flutter
+   bloc_test: ^8.0.0
+   lint: ^1.2.0
 
 flutter:
    uses-material-design: true
